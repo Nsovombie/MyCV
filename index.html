@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nsovo Mathebula-Moloi | CV</title>
+    <style>
+      :root {
+        --accent: #1f6feb;
+        --dark: #1b2430;
+        --light: #f4f6f9;
+        --text: #2b2b2b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Arial, sans-serif;
+        background-color: var(--light);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: var(--dark);
+        color: white;
+        text-align: center;
+        padding: 40px 16px;
+      }
+
+      header img {
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 4px solid var(--accent);
+      }
+
+      header h1 {
+        margin: 12px 0 4px;
+      }
+
+      header p {
+        margin: 0;
+        color: #c9d1d9;
+      }
+
+      .contact {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        margin-top: 16px;
+      }
+
+      .contact a {
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid var(--accent);
+      }
+
+      main {
+        max-width: 850px;
+        margin: 0 auto;
+        padding: 24px 16px;
+      }
+
+      section {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 24px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+      }
+
+      h2 {
+        color: var(--accent);
+        margin-top: 0;
+        border-bottom: 2px solid var(--light);
+        padding-bottom: 6px;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        list-style: none;
+        padding: 0;
+      }
+
+      .skills li {
+        background-color: var(--light);
+        border: 1px solid #d0d7de;
+        border-radius: 20px;
+        padding: 4px 14px;
+      }
+
+      .entry {
+        margin-bottom: 16px;
+      }
+
+      .entry h3 {
+        margin: 0;
+      }
+
+      .entry .date {
+        color: #6a737d;
+        font-size: 14px;
+      }
+
+      footer {
+        text-align: center;
+        padding: 16px;
+        color: #6a737d;
+        font-size: 14px;
+      }
+
+      @media (max-width: 600px) {
+        section {
+          padding: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img src="profile.jpg" alt="Photo of Nsovo Mathebula-Moloi" onerror="this.style.display='none'" />
+      <h1>Nsovo Mathebula-Moloi</h1>
+      <p>Growth Marketing Associate | Full Stack Web Development Student</p>
+      <p>Midrand, Gauteng</p>
+
+      <div class="contact">
+        <a href="mailto:NTOMoloi@icloud.com">✉️ NTOMoloi@icloud.com</a>
+        <a href="https://www.linkedin.com/in/nsovo/" target="_blank">LinkedIn</a>
+        <a href="https://nsovo.com" target="_blank">nsovo.com</a>
+        <a href="https://github.com/Nsovombie" target="_blank">GitHub</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About me</h2>
+        <p>
+          I'm a digital marketer from Midrand with over five years of experience running paid, organic, email and
+          social campaigns for B2B and B2C brands. I'm currently a Growth Marketing Associate at The Scale Up
+          Collective, a UK marketing consultancy, where I run LinkedIn, Meta and Google Ads and outreach campaigns
+          for B2B scale-up clients.
+        </p>
+        <p>
+          I love working with data and finding out why something works. At Layher South Africa I turned around their
+          Google Ads, taking the conversion rate from 0.4% to 4.3%, and doubled website users through organic growth.
+          Working closely with developers as a Software Project Coordinator, and building my own AI agent to track
+          competitors, got me hooked on the technical side of things.
+        </p>
+        <p>
+          That's why I'm now studying Full Stack Web and Software Engineering at HyperionDev. My goal is to combine
+          marketing and development so I can build the tools, websites and automations that help businesses grow,
+          instead of only running the campaigns on them.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <h3>Development</h3>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>DOM manipulation</li>
+          <li>Fetch API and async/await</li>
+          <li>Git and GitHub</li>
+          <li>Shell scripting</li>
+          <li>Responsive design</li>
+          <li>Figma</li>
+        </ul>
+        <h3>Marketing</h3>
+        <ul class="skills">
+          <li>Digital marketing strategy</li>
+          <li>Google, Meta and LinkedIn Ads</li>
+          <li>SEO / SEM</li>
+          <li>Content and social media strategy</li>
+          <li>Email marketing</li>
+          <li>Data analysis and reporting</li>
+          <li>Google Analytics</li>
+          <li>AI workflows (Claude, ChatGPT)</li>
+          <li>Adobe Suite and Canva</li>
+        </ul>
+        <h3>Languages</h3>
+        <ul class="skills">
+          <li>English</li>
+          <li>Xitsonga</li>
+          <li>Sesotho</li>
+          <li>Zulu</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="entry">
+          <h3>Full Stack Web &amp; Software Engineer Bootcamp</h3>
+          <p class="date">HyperionDev | 2026 - Present</p>
+        </div>
+        <div class="entry">
+          <h3>Postgraduate Diploma in Business Management</h3>
+          <p class="date">University of Johannesburg | 2023</p>
+          <p>Strategic Management, Human Resource Management, Strategic Innovation, Research Methodology.</p>
+        </div>
+        <div class="entry">
+          <h3>Advanced Diploma in Business Management</h3>
+          <p class="date">University of Johannesburg | 2022</p>
+        </div>
+        <div class="entry">
+          <h3>Diploma in Commerce: Marketing Management</h3>
+          <p class="date">IIE Rosebank College, Pretoria | 2019 - 2021</p>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2>Work experience</h2>
+        <div class="entry">
+          <h3>Growth Marketing Associate - The Scale Up Collective (UK, remote)</h3>
+          <p class="date">Jan 2026 - Present</p>
+          <p>
+            Run LinkedIn, Meta and Google Ads and LinkedIn outreach campaigns for B2B clients, build prospect lists
+            with AI workflows and web scraping, and built an AI agent that sends a weekly competitor update.
+          </p>
+        </div>
+        <div class="entry">
+          <h3>Digital Marketing &amp; Creative Specialist - Layher South Africa</h3>
+          <p class="date">Oct 2024 - Dec 2025</p>
+          <p>
+            Led all digital marketing. Grew the Google Ads conversion rate from 0.4% to 4.3%, doubled website users,
+            raised LinkedIn engagement from 8.4% to 15.1% and launched the company's LinkedIn newsletter.
+          </p>
+        </div>
+        <div class="entry">
+          <h3>Marketing Coordinator - Roadlab Laboratories</h3>
+          <p class="date">Mar 2023 - Sep 2024</p>
+          <p>
+            Managed digital marketing across all platforms, ran Google Ads for lead generation, nearly doubled
+            website users and designed the company's first branded presentation template.
+          </p>
+        </div>
+        <div class="entry">
+          <h3>Software Project Coordinator - Purple Cosmos</h3>
+          <p class="date">Jul 2022 - Feb 2023</p>
+          <p>
+            Coordinated a software development team across client projects, led daily stand-ups, managed timelines
+            and was the link between clients and developers.
+          </p>
+        </div>
+        <div class="entry">
+          <h3>Marketing Technologist - The Care Co</h3>
+          <p class="date">Feb 2021 - Jun 2022</p>
+          <p>Managed website SEO, SEM and AdWords, social media and newsletters, and was the team's link to IT.</p>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="entry">
+          <h3>Chef's Favourite Meals</h3>
+          <p>A web app that takes meal orders using TheMealDB API, with orders saved in session storage.</p>
+        </div>
+        <div class="entry">
+          <h3>Mini Shop</h3>
+          <p>A shopping cart that uses localStorage, sessionStorage, cookies and caching.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; 2026 Nsovo Mathebula-Moloi</footer>
+  </body>
+</html>
